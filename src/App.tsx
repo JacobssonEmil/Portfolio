@@ -11,7 +11,7 @@ const App = () => {
     
     <Box>
       <Navbar />
-      <Box id="about">
+      <Box id="about" >
         {/* Embed the About component */}
         <About />
       </Box>

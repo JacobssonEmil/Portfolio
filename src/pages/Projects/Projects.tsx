@@ -2,7 +2,7 @@ import { Box, Container, Heading, Text, Flex, Link, chakra } from '@chakra-ui/re
 
 function Project(){
     return[
-        <Container maxWidth="1200px" marginTop="120px">
+        <Container maxWidth="1100px" marginTop="120px">
         <Box>
             <Heading size="lg">
                 <chakra.span 
