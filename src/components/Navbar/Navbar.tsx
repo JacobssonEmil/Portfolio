@@ -24,7 +24,7 @@ const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <Container maxWidth={1300}>
+    <Container maxWidth={1400}>
       <Box bg={'transparent'} px={0}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
