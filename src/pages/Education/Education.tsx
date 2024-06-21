@@ -31,7 +31,7 @@ function Education() {
                             <GiGraduateCap />
                             <Heading size={'md'}>Technology program</Heading>
                             <Text color={'#2b6cb0'} mt={2}>NTI gymnasiet, Helsingborg</Text>
-                            <Text mt={2}>August 2018 - June 2021</Text>
+                            <Text mt={2}>August 2017 - June 2020</Text>
                         </CardBody>
                     </Card>
                 </Box>
