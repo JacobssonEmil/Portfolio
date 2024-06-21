@@ -18,15 +18,15 @@ import {
   } from '@chakra-ui/react';
   import { FaGithub } from 'react-icons/fa';
   
-  function ProjectCardSmartHouse() {
+  function ProjectCardPortfolio() {
       return (
-          <Card maxW='sm' overflow="hidden" bg={'#2c5282'} height={350} width={350} display='flex' flexDirection='column' 
+          <Card maxW='sm' overflow="hidden" bg={'#2c5282'} height={350} width={350} display='flex' flexDirection='column'
             _hover={{
             transform: 'scale(1.05)', 
             transition: 'transform 0.3s ease-in-out',
         }}>
               <Image
-                  src='/images/SmartHouse.png'
+                  src='/images/Portfolio.png'
                   alt='Smart House'
                   objectFit={'cover'}
                   height={175}
@@ -34,9 +34,9 @@ import {
               />
               
               <Stack mt='0' spacing='3' p={5} height={120} overflow={'hidden'}>
-                  <Heading size='md' color={'white'}>Smart House</Heading>
+                  <Heading size='md' color={'white'}>Portfolio</Heading>
                   <Text color={'white'}>
-                     A website and application for managing devices in a prototype home.
+                  A digital portfolio developed using React and ChakraUI.
                   </Text>
               </Stack>
   
@@ -61,5 +61,5 @@ import {
       );
   }
   
-  export default ProjectCardSmartHouse;
+  export default ProjectCardPortfolio;
   

@@ -18,7 +18,7 @@ function Education() {
 
             <Flex direction={['column', 'column', 'row']} align="flex-start" justify="space-between" mt={50}>
                 <Box>
-                    <Card maxWidth={500} mb={50} bg={'#F7FAFC'}>
+                    <Card maxWidth={500} mb={50} bg={'#EDF2F7'}>
                         <CardBody padding={7}>
                             <GiGraduateCap />
                             <Heading size={'md'}>Bachelor Programme in Software Development</Heading>
@@ -26,7 +26,7 @@ function Education() {
                             <Text mt={2}>August 2021 - June 2024</Text>
                         </CardBody>
                     </Card>
-                    <Card maxWidth={500} bg={'#F7FAFC'}>
+                    <Card maxWidth={500} bg={'#EDF2F7'}>
                         <CardBody padding={7}>
                             <GiGraduateCap />
                             <Heading size={'md'}>Technology program</Heading>

@@ -19,6 +19,10 @@ import {
 import { FaGithub } from 'react-icons/fa';
 import ProjectCardMedlemma from '../../components/ProjectCards/ProjectCardMedlemma';
 import ProjectCardSmartHouse from '../../components/ProjectCards/ProjectCardSmartHouse';
+import ProjectCardPortfolio from '../../components/ProjectCards/ProjectCardPortfolio';
+
+
+ProjectCardPortfolio
 
 function Project() {
     return [
@@ -29,17 +33,20 @@ function Project() {
                         borderBottom="3px solid #2b6cb0"
                         display="inline-block"
                         paddingBottom="4px"
-                    >
+                    > 
                         Projects
                     </chakra.span>
                 </Heading>
 
                 <Flex direction="row" wrap="wrap" justifyContent="space-between" mt={50}>
-                    <ProjectCardMedlemma/>
                     <ProjectCardSmartHouse/>
+                    
+                    <ProjectCardMedlemma/>
+                    <ProjectCardPortfolio/>
+                    
                 </Flex>
             </Box>
-        </Container>
+        </Container> 
     ];
 }
 
