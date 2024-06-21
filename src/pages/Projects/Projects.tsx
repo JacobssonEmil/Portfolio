@@ -14,9 +14,11 @@ import {
     Stack,
     Image,
     Badge,
+    SimpleGrid,
   } from '@chakra-ui/react';
   import { FaGithub } from 'react-icons/fa';
-  import ProjectCardMedlemma from '../../components/ProjectCard/ProjectCardMedlemma'
+  import ProjectCardMedlemma from '../../components/ProjectCards/ProjectCardMedlemma'
+  import ProjectCardSmartHouse from '../../components/ProjectCards/ProjectCardSmartHouse'
   
   function Project() {
     return [
@@ -32,7 +34,9 @@ import {
             </chakra.span>
           </Heading>
   
-          <ProjectCardMedlemma/>
+          
+            <ProjectCardMedlemma/>
+            <ProjectCardSmartHouse/>
           
         </Box>
       </Container>

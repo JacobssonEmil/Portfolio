@@ -17,14 +17,14 @@ import {
   } from '@chakra-ui/react';
   import { FaGithub } from 'react-icons/fa';
 
-function ProjectCardMedlemma(){
+function ProjectCardSmartHouse(){
 
     return(
 
-        <Card maxW='sm' mt={50} overflow="hidden" bg={'#F7FAFC'}> 
+        <Card maxW='sm' overflow="hidden" bg={'#F7FAFC'}> 
             <Image
-                src='/images/Andriod.jpg'
-                alt='Medlemma'
+                src='/images/SmartHouse.jpg'
+                alt='Smart House'
             
                 _hover={{
                 transform: 'scale(1.05)', 
@@ -34,11 +34,11 @@ function ProjectCardMedlemma(){
             
             <Stack mt='0' spacing='3' p={5}>
             <Text color='#2b6cb0'>
-                2023
+                2024
                 </Text>
-                <Heading size='md'>Medlemma</Heading>
+                <Heading size='md'>Smart House</Heading>
                 <Text>
-                En app för att hantera dina medlemskap i butiker. Med hjälp av denna app kan användaren enkelt samla, organisera och hantera alla sina medlemskap i olika butiker på ett effektivt sätt. Användaren kan också smidigt visa upp sina medlemskort direkt från sin mobil vid behov
+                En webbplats och mobilapp för att fjärrstyra enheter i ett prototyphus. Användarna får tillgång till en intuitiv gränssnittslösning för att styra husets belysning, fönster och säkerhetssystem, samt läsa av data från husets sensorer, allt från en och samma plats.
                 </Text>
                 
             </Stack>
@@ -61,4 +61,4 @@ function ProjectCardMedlemma(){
     )
 }
 
-export default ProjectCardMedlemma;
+export default ProjectCardSmartHouse;
