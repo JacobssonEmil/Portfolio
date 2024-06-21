@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 function About() {
     return (
-        <Container maxWidth="600px" marginTop="70px">
+        <Container maxWidth="600px" marginTop="160px">
             <Box textAlign="center" >
                 <Heading size="3xl">Hey! I am Emil</Heading>
                 <Text marginTop="8" fontSize="2xl">

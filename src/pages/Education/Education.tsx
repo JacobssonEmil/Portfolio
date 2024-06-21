@@ -3,7 +3,7 @@ import { GiGraduateCap } from 'react-icons/gi';
 
 function Education() {
     return (
-        <Container maxWidth="1200px" marginTop="120px">
+        <Container maxWidth="1200px" marginTop="160px">
             <Box>
                 <Heading size="lg">
                     <chakra.span
