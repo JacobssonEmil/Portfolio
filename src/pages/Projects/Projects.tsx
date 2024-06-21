@@ -16,15 +16,18 @@ import {
     Badge,
     SimpleGrid,
 } from '@chakra-ui/react';
-import { FaGithub } from 'react-icons/fa';
+
 import ProjectCardMedlemma from '../../components/ProjectCards/ProjectCardMedlemma';
 import ProjectCardSmartHouse from '../../components/ProjectCards/ProjectCardSmartHouse';
 import ProjectCardPortfolio from '../../components/ProjectCards/ProjectCardPortfolio';
+import MedlemmaModal from '../../components/ProjectCards/MedlemmaModal'
 
 
 ProjectCardPortfolio
 
 function Project() {
+
+    
     return [
         <Container maxWidth="1200px" marginTop="160px">
             <Box>
@@ -46,6 +49,8 @@ function Project() {
                     
                 </Flex>
             </Box>
+
+            
         </Container> 
     ];
 }
