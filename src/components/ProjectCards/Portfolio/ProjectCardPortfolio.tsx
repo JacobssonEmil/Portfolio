@@ -20,7 +20,7 @@ function ProjectCardPortfolio() {
 
 
     return (
-        <><Card maxW='sm' mt={50} overflow="hidden" bg={'#393E46'} height={350} width={350} display='flex' flexDirection='column' _hover={{
+        <><Card maxW='sm' boxShadow='dark-lg' rounded='md' mt={50} overflow="hidden" bg={'#393E46'} height={350} width={350} display='flex' flexDirection='column' _hover={{
             transform: 'scale(1.05)',
             transition: 'transform 0.3s ease-in-out',
         }}>

@@ -3,7 +3,7 @@ import { GiGraduateCap } from "react-icons/gi"
 
 function NtiCard() {
     return (
-        <Card maxWidth={500} bg={'#393E46'}>
+        <Card maxWidth={500} bg={'#393E46'} boxShadow='dark-lg' rounded='md'>
             <CardBody padding={7}>
                 
                 <Heading size={'md'} color={'#EEEEEE'}>Technology program</Heading>
