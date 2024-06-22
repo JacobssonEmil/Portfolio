@@ -22,7 +22,6 @@ function Education() {
 
             <Flex direction={['column', 'column', 'row']} align="flex-start" justify="space-between" mt={50}>
                 <Box>
-
                     <Kristianstad/>
                     <NtiCard/> 
                 </Box>
