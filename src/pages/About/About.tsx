@@ -1,14 +1,14 @@
 import { EmailIcon } from '@chakra-ui/icons';
-import { Box, Container, Heading, Text, Flex, Link, Highlight } from '@chakra-ui/react';
+import { Box, Container, Heading, Text, Flex, Link, Highlight, Divider } from '@chakra-ui/react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 function About() {
     return (
-        <Container maxWidth="600px" marginTop="160px">
+        <Container maxWidth="600px" marginTop="160px" color={'#EEEEEE'}>
             <Box textAlign="center" >
                 <Heading size="3xl">Hey! I am Emil</Heading>
                 <Text marginTop="8" fontSize="2xl">
-                    <Highlight query='fullstack developer' styles={{ px: '2', py: '1', rounded: 'full', bg: '#C6F6D5' }}>
+                    <Highlight query='fullstack developer' styles={{ px: '2', py: '1', rounded: 'full', bg: '#00ADB5' }}>
                         {"I am a passionate fullstack developer from Sweden, Turning your ideas into reality."}
                     </Highlight>
                 </Text>
@@ -20,6 +20,9 @@ function About() {
                     </Flex>
                 </Box>
             </Box>
+
+            
+
         </Container>
     );
 }

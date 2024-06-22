@@ -8,7 +8,12 @@ import {
     ModalCloseButton,
     Button,
     Text,
+    Link,
+    Badge,
+    ButtonGroup,
+    Flex,
   } from '@chakra-ui/react';
+import { FaGithub } from 'react-icons/fa';
   
   interface MedlemmaModalProps {
     isOpen: boolean;
@@ -29,10 +34,15 @@ import {
             </ModalBody>
   
             <ModalFooter>
-              <Button colorScheme='blue' mr={3} onClick={onClose}>
-                Close
-              </Button>
-              <Button variant='ghost'>Secondary Action</Button>
+            <ButtonGroup spacing='2'>
+                          <Link href='https://github.com/JacobssonEmil' isExternal>
+                          <Flex>
+                              <FaGithub size="30"/>
+                                <Link marginLeft={2} >Github</Link>
+                              </Flex>
+                          </Link>
+                      </ButtonGroup>
+              
             </ModalFooter>
           </ModalContent>
         </Modal>

@@ -20,7 +20,7 @@ import {
   
   function ProjectCardPortfolio() {
       return (
-          <Card maxW='sm' mt={50} overflow="hidden" bg={'#2c5282'} height={350} width={300} display='flex' flexDirection='column'
+          <Card maxW='sm' mt={50} overflow="hidden" bg={'#393E46'} height={350} width={350} display='flex' flexDirection='column'
             _hover={{
             transform: 'scale(1.05)', 
             transition: 'transform 0.3s ease-in-out',
@@ -47,12 +47,15 @@ import {
                   <Flex justifyContent="space-between" width="100%">
                       <ButtonGroup spacing='2'>
                           <Link href='https://github.com/JacobssonEmil' isExternal>
-                              <FaGithub size="30" color="white"/>
+                              <Flex>
+                              <FaGithub size="30" color="white" />
+                                <Link marginLeft={2} color="white">Github</Link>
+                              </Flex>
                           </Link>
                       </ButtonGroup>
                       <ButtonGroup spacing='2'>
                           <Link href='#' isExternal>
-                              <Badge bg={'#C6F6D5'}>Live Demo</Badge>
+                          <Badge bg={'#00ADB5'}>More Info</Badge>
                           </Link>
                       </ButtonGroup>
                   </Flex>

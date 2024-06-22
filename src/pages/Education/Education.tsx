@@ -1,43 +1,35 @@
-import { Box, Flex, Card, CardBody, Container, Heading, chakra, Text, Image } from '@chakra-ui/react';
+import { Box, Flex, Card, CardBody, Container, Heading, chakra, Text, Image, Divider } from '@chakra-ui/react';
 import { GiGraduateCap } from 'react-icons/gi';
+import Kristianstad from '../../components/EducationCards/KristianstadCard';
+import NtiCard from '../../components/EducationCards/NtiCard';
+import { FaGraduationCap } from 'react-icons/fa';
 
 function Education() {
     return (
         <Container maxWidth="1200px" marginTop="160px">
             <Box>
-                <Heading size="lg">
+                <Heading size="lg" color={'#EEEEEE'}>
                     <chakra.span
-                        borderBottom="3px solid #2b6cb0"
+                        borderBottom="3px solid #00ADB5"
                         display="inline-block"
                         paddingBottom="4px"
                     >
-                        Education
+                        <Flex><Box mt={1}><FaGraduationCap color="#EEEEEE"/></Box>
+                        <Text ml={2}>Education</Text></Flex>
                     </chakra.span>
                 </Heading>
             </Box>
 
             <Flex direction={['column', 'column', 'row']} align="flex-start" justify="space-between" mt={50}>
                 <Box>
-                    <Card maxWidth={500} mb={50} bg={'#EDF2F7'}>
-                        <CardBody padding={7}>
-                            <GiGraduateCap />
-                            <Heading size={'md'}>Bachelor Programme in Software Development</Heading>
-                            <Text color={'#2b6cb0'} mt={2}>Kristianstad Högskola, Kristianstad</Text>
-                            <Text mt={2}>August 2021 - June 2024</Text>
-                        </CardBody>
-                    </Card>
-                    <Card maxWidth={500} bg={'#EDF2F7'}>
-                        <CardBody padding={7}>
-                            <GiGraduateCap />
-                            <Heading size={'md'}>Technology program</Heading>
-                            <Text color={'#2b6cb0'} mt={2}>NTI gymnasiet, Helsingborg</Text>
-                            <Text mt={2}>August 2017 - June 2020</Text>
-                        </CardBody>
-                    </Card>
+
+                    <Kristianstad/>
+                    <NtiCard/> 
                 </Box>
-                
+
                 <Image src='/images/Education.png' alt='Education' boxSize="350px" objectFit="cover" alignSelf="center" />
             </Flex>
+
         </Container>
     );
 }

@@ -9,7 +9,7 @@ import Skills from './pages/Skills/Skills';
 const App = () => {
   return (
     
-    <Box>
+    <Box bg={'#222831'}>
       <Navbar />
       <Box id="about" >
         {/* Embed the About component */}

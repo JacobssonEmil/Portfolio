@@ -12,8 +12,9 @@ const NavLink = ({ children, to }: { children: React.ReactNode, to: string }) =>
     p={2}
     rounded={'md'}
     _hover={{
-      textDecoration: 'none',
-      bg: useColorModeValue('gray.200', 'gray.700'),
+      textDecoration: 'underline',
+      textDecorationColor: '#00ADB5',
+      textDecorationThickness: '2px'
     }}
   >
     {children}
@@ -24,12 +25,12 @@ const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <Container maxWidth={1400}>
+    <Container maxWidth={1400} color={'#EEEEEE'}>
       <Box bg={'transparent'} px={0}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
             size={'md'}
-            icon={isOpen ? <CloseIcon /> : <HamburgerIcon boxSize="24px" />}
+            icon={isOpen ? <CloseIcon color={'#EEEEEE'} /> : <HamburgerIcon boxSize="24px" color={'#EEEEEE'} />}
             aria-label={'Open Menu'}
             display={{ md: 'none' }}
             onClick={isOpen ? onClose : onOpen}
@@ -52,10 +53,22 @@ const Navbar = () => {
                 <Avatar size='sm' name='Emil Jacobsson' src='/images/Profilbild.jpeg' />
                 <ChevronDownIcon boxSize={6}></ChevronDownIcon>
               </MenuButton>
-              <MenuList>
-                <Link href='https://www.linkedin.com/in/emiljacobsson/' isExternal><MenuItem><Flex marginEnd={2}><FaLinkedin color='#0A66C2'/></Flex>Linkedin</MenuItem></Link>
-                <Link href='https://github.com/JacobssonEmil' isExternal><MenuItem><Flex marginEnd={2}><FaGithub color='#181717'/></Flex>Github</MenuItem></Link>
-                <Link href="mailto:emil@jacobsson.com" isExternal><MenuItem><EmailIcon marginTop={1} marginEnd={2}/>Email</MenuItem></Link>
+              <MenuList bg={'#EEEEEE'}>
+                <Link href='https://www.linkedin.com/in/emiljacobsson/' isExternal color={'#393E46'} _hover={{
+                  textDecoration: 'underline',
+                  textDecorationColor: '#00ADB5',
+                  textDecorationThickness: '2px'
+                }}><MenuItem bg={'#EEEEEE'}><Flex marginEnd={2}><FaLinkedin color='#0A66C2' /></Flex><Text color={'#393E46'}>Linkedin</Text></MenuItem></Link>
+                <Link href='https://github.com/JacobssonEmil' isExternal color={'#393E46'} _hover={{
+                  textDecoration: 'underline',
+                  textDecorationColor: '#00ADB5',
+                  textDecorationThickness: '2px'
+                }}><MenuItem bg={'#EEEEEE'}><Flex marginEnd={2}><FaGithub color='#181717' /></Flex><Text color={'#393E46'}>Github</Text></MenuItem></Link>
+                <Link href="mailto:emil@jacobsson.com" isExternal color={'#393E46'} _hover={{
+                  textDecoration: 'underline',
+                  textDecorationColor: '#00ADB5',
+                  textDecorationThickness: '2px'
+                }}><MenuItem bg={'#EEEEEE'}><EmailIcon marginTop={1} marginEnd={2} color={'black'} /><Text color={'#393E46'}>Email</Text></MenuItem></Link>
               </MenuList>
             </Menu>
           </Flex>
@@ -72,7 +85,7 @@ const Navbar = () => {
       </Box>
       <hr></hr>
     </Container>
-   
+
   );
 };
 
