@@ -27,7 +27,7 @@ function Education() {
                     <NtiCard/> 
                 </Box>
 
-                <Image src='/images/Education.png' alt='Education' boxSize="350px" objectFit="cover" alignSelf="center" />
+                {/* <Image src='/images/Education.png' alt='Education' boxSize="350px" objectFit="cover" alignSelf="center" />*/}
             </Flex>
 
         </Container>

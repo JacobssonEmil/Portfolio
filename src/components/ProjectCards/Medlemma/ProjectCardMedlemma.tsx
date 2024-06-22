@@ -1,28 +1,23 @@
 import {
-    Box,
-    Container,
     Heading,
     Text,
     Flex,
     Link,
-    chakra,
     ButtonGroup,
     Card,
-    CardBody,
     CardFooter,
-    Divider,
     Stack,
     Image,
-    Badge,
-    Highlight,
-    useDisclosure
+    useDisclosure,
+    Button,
 } from '@chakra-ui/react';
 import { FaGithub } from 'react-icons/fa';
 import MedlemmaModal from './MedlemmaModal';
 
-function ProjectCardSmartHouse() {
+function ProjectCardMedlemma() {
 
     const { isOpen, onOpen, onClose } = useDisclosure();
+
 
     return (
         <><Card maxW='sm' mt={50} overflow="hidden" bg={'#393E46'} height={350} width={350} display='flex' flexDirection='column' _hover={{
@@ -55,19 +50,13 @@ function ProjectCardSmartHouse() {
                     <ButtonGroup spacing='2'>
                         <Link href='https://github.com/JacobssonEmil' isExternal>
                             <Flex>
-                                <FaGithub size="30" color="white" />
-                                <Link marginLeft={2} color="white">Github</Link>
+                                <FaGithub size="30" color="#EEEEEE" />
+                                <Link marginLeft={2} color="#EEEEEE">Github</Link>
                             </Flex>
                         </Link>
                     </ButtonGroup>
                     <ButtonGroup spacing='2'>
-                        <Link onClick={onOpen} isExternal>
-                            <Link color={'#00ADB5'} _hover={{
-                    textDecoration: 'underline',
-                    textDecorationColor: '#00ADB5',
-                    textDecorationThickness: '2px'
-                }}>More Info</Link>
-                        </Link>
+                        <Button className='btnWiggle' onClick={onOpen} size='sm'>More Info</Button>
                     </ButtonGroup>
                 </Flex>
             </CardFooter>
@@ -78,4 +67,4 @@ function ProjectCardSmartHouse() {
     );
 }
 
-export default ProjectCardSmartHouse;
+export default ProjectCardMedlemma;

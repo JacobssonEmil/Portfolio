@@ -7,7 +7,7 @@ function Kristianstad() {
             <CardBody padding={7}>
                 
                 <Heading size={'md'}  color={'#EEEEEE'}>Bachelor Programme in Software Development</Heading>
-                <Text color={'#00ADB5'} mt={2}>Kristianstad Högskola, Kristianstad</Text>
+                <Text color={'#EEEEEE'} mt={2}>Kristianstad Högskola, Kristianstad</Text>
                 <Text mt={2}  color={'#EEEEEE'}>August 2021 - June 2024</Text>
             </CardBody>
         </Card>

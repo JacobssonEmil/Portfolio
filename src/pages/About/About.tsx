@@ -8,7 +8,7 @@ function About() {
             <Box textAlign="center" >
                 <Heading size="3xl">Hey! I am Emil</Heading>
                 <Text marginTop="8" fontSize="2xl">
-                    <Highlight query='fullstack developer' styles={{ px: '2', py: '1', rounded: 'full', bg: '#00ADB5' }}>
+                    <Highlight query='fullstack developer' styles={{ px: '2', py: '0.5', rounded: 'full', bg: '#00ADB5', color: '#EEEEEE' }}>
                         {"I am a passionate fullstack developer from Sweden, Turning your ideas into reality."}
                     </Highlight>
                 </Text>

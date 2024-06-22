@@ -1,22 +1,29 @@
 import {
+    Box,
+    Container,
     Heading,
     Text,
     Flex,
     Link,
+    chakra,
     ButtonGroup,
     Card,
+    CardBody,
     CardFooter,
+    Divider,
     Stack,
     Image,
+    Badge,
+    Highlight,
     useDisclosure,
+    Button
 } from '@chakra-ui/react';
 import { FaGithub } from 'react-icons/fa';
-import MedlemmaModal from '../ProjectCards/MedlemmaModal';
+import SmartHouseModal from './SmartHouseModal';
 
-function ProjectCardMedlemma() {
+function ProjectCardSmartHouse() {
 
     const { isOpen, onOpen, onClose } = useDisclosure();
-
 
     return (
         <><Card maxW='sm' mt={50} overflow="hidden" bg={'#393E46'} height={350} width={350} display='flex' flexDirection='column' _hover={{
@@ -24,7 +31,7 @@ function ProjectCardMedlemma() {
             transition: 'transform 0.3s ease-in-out',
         }}>
             <Image
-                src='/images/Android.jpg'
+                src='/images/SmartHouse.jpg'
                 alt='Smart House'
                 objectFit={'cover'}
                 height={175}
@@ -35,7 +42,7 @@ function ProjectCardMedlemma() {
                     textDecoration: 'underline',
                     textDecorationColor: '#00ADB5',
                     textDecorationThickness: '2px'
-                }}>Medlemma</Link></Heading>
+                }}>Smart House</Link></Heading>
                 <Text color={'#EEEEEE'}>
                     An app to manage your store memberships.
                 </Text>
@@ -55,21 +62,15 @@ function ProjectCardMedlemma() {
                         </Link>
                     </ButtonGroup>
                     <ButtonGroup spacing='2'>
-                        <Link onClick={onOpen} isExternal>
-                            <Link color={'#00ADB5'} _hover={{
-                    textDecoration: 'underline',
-                    textDecorationColor: '#00ADB5',
-                    textDecorationThickness: '2px'
-                }}>More Info</Link>
-                        </Link>
+                        <Button className='btnWiggle'  onClick={onOpen} size='sm' bg={'#EEEEEE'}>More Info</Button>
                     </ButtonGroup>
                 </Flex>
             </CardFooter>
         </Card><div>
 
-                <MedlemmaModal isOpen={isOpen} onOpen={onOpen} onClose={onClose} />
+                <SmartHouseModal isOpen={isOpen} onOpen={onOpen} onClose={onClose} />
             </div></>
     );
 }
 
-export default ProjectCardMedlemma;
+export default ProjectCardSmartHouse;

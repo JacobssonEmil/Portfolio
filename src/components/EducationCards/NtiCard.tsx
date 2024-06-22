@@ -7,7 +7,7 @@ function NtiCard() {
             <CardBody padding={7}>
                 
                 <Heading size={'md'} color={'#EEEEEE'}>Technology program</Heading>
-                <Text color={'#00ADB5'} mt={2}>NTI gymnasiet, Helsingborg</Text>
+                <Text color={'#EEEEEE'} mt={2}>NTI gymnasiet, Helsingborg</Text>
                 <Text mt={2} color={'#EEEEEE'}>August 2017 - June 2020</Text>
             </CardBody>
         </Card>

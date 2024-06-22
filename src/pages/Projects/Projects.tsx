@@ -18,9 +18,9 @@ import {
     Center,
 } from '@chakra-ui/react';
 
-import ProjectCardMedlemma from '../../components/ProjectCards/ProjectCardMedlemma';
-import ProjectCardSmartHouse from '../../components/ProjectCards/ProjectCardSmartHouse';
-import ProjectCardPortfolio from '../../components/ProjectCards/ProjectCardPortfolio';
+import ProjectCardMedlemma from '../../components/ProjectCards/Medlemma/ProjectCardMedlemma';
+import ProjectCardSmartHouse from '../../components/ProjectCards/SmartHouse/ProjectCardSmartHouse';
+import ProjectCardPortfolio from '../../components/ProjectCards/Portfolio/ProjectCardPortfolio';
 import { FaCode } from 'react-icons/fa';
 
 
@@ -38,7 +38,7 @@ function Project() {
                     paddingBottom="4px"
                 >
                     <Flex><Box mt={1}><FaCode color="#EEEEEE"/></Box>
-                    <Text ml={2}>Project</Text></Flex>
+                    <Text ml={2}>Projects</Text></Flex>
                 </chakra.span>
             </Heading>
 
