@@ -15,6 +15,7 @@ import {
     Image,
     Badge,
     SimpleGrid,
+    Center,
 } from '@chakra-ui/react';
 
 import ProjectCardMedlemma from '../../components/ProjectCards/ProjectCardMedlemma';
@@ -30,7 +31,7 @@ function Project() {
     
     return [
         <Container maxWidth="1200px" marginTop="160px">
-            <Box>
+            
                 <Heading size="lg">
                     <chakra.span
                         borderBottom="3px solid #2b6cb0"
@@ -41,14 +42,16 @@ function Project() {
                     </chakra.span>
                 </Heading>
 
-                <Flex direction="row" wrap="wrap" justifyContent="space-between" mt={50}>
-                    <ProjectCardSmartHouse/>
+                <Flex direction="row" wrap="wrap" justifyContent="center">
                     
+                    <ProjectCardSmartHouse/>
+                    <Center marginRight={125} marginLeft={125}>
                     <ProjectCardMedlemma/>
+                    </Center>
                     <ProjectCardPortfolio/>
                     
                 </Flex>
-            </Box>
+            
 
             
         </Container> 

@@ -27,7 +27,7 @@ import {
 
 
       return (
-          <><Card maxW='sm' overflow="hidden" bg={'#2c5282'} height={350} width={350} display='flex' flexDirection='column'
+          <><Card maxW='sm' mt={50} overflow="hidden" bg={'#2c5282'} height={350} width={300} display='flex' flexDirection='column'
               _hover={{
                   transform: 'scale(1.05)',
                   transition: 'transform 0.3s ease-in-out',
