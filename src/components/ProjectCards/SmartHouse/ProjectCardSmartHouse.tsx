@@ -38,7 +38,7 @@ function ProjectCardSmartHouse() {
             />
 
             <Stack mt='0' spacing='3' p={5} height={120} overflow={'hidden'}>
-                <Heading size='md' color={'#EEEEEE'} onClick={onOpen}><Link _hover={{
+                <Heading size='md' color={'#EEEEEE'}><Link onClick={onOpen} _hover={{
                     textDecoration: 'underline',
                     textDecorationColor: '#00ADB5',
                     textDecorationThickness: '2px'
@@ -62,7 +62,7 @@ function ProjectCardSmartHouse() {
                         </Link>
                     </ButtonGroup>
                     <ButtonGroup spacing='2'>
-                        <Button className='btnWiggle'  onClick={onOpen} size='sm' bg={'#EEEEEE'}>More Info</Button>
+                        <Button className='btnWiggle' onClick={onOpen} size='sm' bg={'#EEEEEE'}>More Info</Button>
                     </ButtonGroup>
                 </Flex>
             </CardFooter>
