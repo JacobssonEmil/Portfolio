@@ -51,14 +51,18 @@ function ProjectCardPortfolio() {
                         <Link href='https://github.com/JacobssonEmil' isExternal>
                             <Flex>
                                 <FaGithub size="30" color="#EEEEEE" />
-                                <Link marginLeft={2} color="#EEEEEE">Github</Link>
+                                <Link marginLeft={2} color="#EEEEEE" _hover={{
+                                    textDecoration: 'underline',
+                                    textDecorationColor: '#00ADB5',
+                                    textDecorationThickness: '2px'
+                                }}>Github</Link>
                             </Flex>
                         </Link>
                     </ButtonGroup>
                     <ButtonGroup spacing='2'>
-                        
-                            <Button className='btnWiggle' onClick={onOpen} size='sm'>More Info</Button>
-                    
+
+                        <Button className='btnWiggle' onClick={onOpen} size='sm'>More Info</Button>
+
                     </ButtonGroup>
                 </Flex>
             </CardFooter>
