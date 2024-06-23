@@ -43,7 +43,7 @@ const PortfolioModal: React.FC<SmartHouseoModalProps> = ({ isOpen, onClose }) =>
   
           <ModalFooter>
             <ButtonGroup spacing="2">
-              <Link href='https://github.com/JacobssonEmil' isExternal>
+              <Link href='https://github.com/JacobssonEmil/portfolio' isExternal>
                 <Flex align="center">
                   <FaGithub size="30"/>
                   <Text marginLeft="2">Github</Text>

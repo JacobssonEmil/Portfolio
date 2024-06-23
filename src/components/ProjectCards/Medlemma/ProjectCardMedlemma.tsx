@@ -58,7 +58,7 @@ function ProjectCardMedlemma() {
                 <CardFooter>
                     <Flex justifyContent="space-between" alignItems="center" width="100%">
                         <ButtonGroup spacing='2'>
-                            <Link href='https://github.com/JacobssonEmil' isExternal>
+                            <Link href='https://github.com/Stuhren/Medlemma' isExternal>
                                 <Button
                                     leftIcon={<FaGithub />}
                                     variant='outline'
