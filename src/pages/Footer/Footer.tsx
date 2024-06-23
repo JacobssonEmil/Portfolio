@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   Box,
   Container,
@@ -6,15 +5,13 @@ import {
   Text,
   Icon,
   Link,
-  Flex,
   VStack,
   HStack,
   Wrap,
   WrapItem,
   Center
 } from '@chakra-ui/react';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaGithub, FaMailBulk, FaMailchimp, FaPhone } from 'react-icons/fa';
-import { FaLetterboxd, FaMessage } from 'react-icons/fa6';
+import { FaLinkedin, FaGithub, FaPhone } from 'react-icons/fa';
 import { EmailIcon } from '@chakra-ui/icons';
 
 const Footer = () => {

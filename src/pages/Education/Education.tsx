@@ -1,5 +1,4 @@
-import { Box, Flex, Card, CardBody, Container, Heading, chakra, Text, Image, Divider } from '@chakra-ui/react';
-import { GiGraduateCap } from 'react-icons/gi';
+import { Box, Flex, Container, Heading, chakra, Text, Image } from '@chakra-ui/react';
 import Kristianstad from '../../components/EducationCards/KristianstadCard';
 import NtiCard from '../../components/EducationCards/NtiCard';
 import { FaGraduationCap } from 'react-icons/fa';

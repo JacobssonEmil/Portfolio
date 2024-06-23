@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { Box, Fade, Icon, useDisclosure } from '@chakra-ui/react';
 import { BsArrowDown } from 'react-icons/bs';  // Using react-icons for the arrow icon
 

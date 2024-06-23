@@ -1,5 +1,4 @@
-import React from 'react';
-import { Avatar, Box, Image, Tooltip, Wrap, WrapItem } from '@chakra-ui/react';
+import { Box, Image, Tooltip, Wrap, WrapItem } from '@chakra-ui/react';
 
 const TechIcons = () => {
   const icons = [

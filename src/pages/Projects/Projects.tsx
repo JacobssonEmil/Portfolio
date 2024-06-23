@@ -4,17 +4,7 @@ import {
     Heading,
     Text,
     Flex,
-    Link,
     chakra,
-    ButtonGroup,
-    Card,
-    CardBody,
-    CardFooter,
-    Divider,
-    Stack,
-    Image,
-    Badge,
-    SimpleGrid,
     Center,
 } from '@chakra-ui/react';
 

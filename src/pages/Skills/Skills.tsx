@@ -1,4 +1,4 @@
-import { Box, Container, Flex, Heading, chakra, Text, Image, Center } from '@chakra-ui/react';
+import { Box, Container, Flex, Heading, chakra, Text, Image } from '@chakra-ui/react';
 import { FaScrewdriverWrench } from 'react-icons/fa6';
 import Technologies from '../../components/TechIcons/TechIcons';
 
