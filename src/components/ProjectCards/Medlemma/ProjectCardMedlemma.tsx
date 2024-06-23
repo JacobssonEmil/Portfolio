@@ -13,29 +13,48 @@ import {
 } from '@chakra-ui/react';
 import { FaGithub } from 'react-icons/fa';
 import MedlemmaModal from './MedlemmaModal';
+import { useEffect, useState } from 'react';
 
 function ProjectCardMedlemma() {
     const { isOpen, onOpen, onClose } = useDisclosure();
 
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768); // Adjusted to a common mobile breakpoint
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 768); // Updated to a common mobile breakpoint
+        };
+
+        window.addEventListener('resize', handleResize);
+        // Clean up the event listener when the component unmounts
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
     return (
         <>
             <Card
-                maxW='sm'
-                boxShadow='dark-lg'
-                rounded='lg'
-                mt={50}
-                overflow="hidden"
-                bgGradient='linear(to-b, #393E46, #222831)'
-                color='#EEEEEE'
-                height={350}
-                width={350}
-                display='flex'
-                flexDirection='column'
-                _hover={{
+            maxW='sm'
+            boxShadow='dark-lg'
+            rounded='lg'
+            mt={50}
+            overflow="hidden"
+            bgGradient='linear(to-b, #393E46, #222831)'
+            color='#EEEEEE'
+            height={350}
+            width={350}
+            display='flex'
+            flexDirection='column'
+            _hover={isMobile ? {} : {
+                transform: 'scale(1.05)',
+                transition: 'transform 0.3s ease-in-out',
+            }}
+            sx={{
+                '@media screen and (max-width: 1050px)': {
                     transform: 'scale(1.05)',
-                    transition: 'transform 0.3s ease-in-out',
-                }}
-            >
+            transition: 'transform 0.3s ease-in-out',
+                }
+            }}
+        >
                 <Image
                     src='/images/Android.jpg'
                     alt='Smart House'
