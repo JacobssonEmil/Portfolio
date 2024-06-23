@@ -45,7 +45,7 @@ const Footer = () => {
             <Link href="mailto:emil@jacobsson.com" isExternal>
               <EmailIcon boxSize={6} color={'#EEEEEE'} _hover={{ color: '#00ADB5' }} />
             </Link>
-            <Link href="tel:0733299999">
+            <Link href="tel:">
               <Icon as={FaPhone} boxSize={6} color={'#EEEEEE'} _hover={{ color: '#00ADB5' }} />
             </Link>
             
