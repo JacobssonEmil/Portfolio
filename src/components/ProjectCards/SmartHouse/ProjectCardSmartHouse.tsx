@@ -47,7 +47,7 @@ function ProjectCardSmartHouse() {
                     <Heading size='md' onClick={onOpen} cursor='pointer' _hover={{
                         color: '#00ADB5'
                     }}>
-                        Smart House
+                        Smart Home
                     </Heading>
                     <Text>
                         A website and mobile app for remotely controlling devices in a prototype house.
