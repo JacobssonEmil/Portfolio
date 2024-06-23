@@ -9,9 +9,9 @@ const TechIcons = () => {
     { src: './images/MySQL.png', alt: 'MySQL' },
     { src: './images/MongoDB.png', alt: 'MongoDB' },
     { src: './images/Git.png', alt: 'Git' },
+    { src: './images/Jira.png', alt: 'Jira' },
     { src: './images/Bootstrap.png', alt: 'Bootstrap' },
     { src: './images/Kotlin.png', alt: 'Kotlin' },
-    { src: './images/JetpackCompose.png', alt: 'JetpackCompose' }
 ];
 
   return (
