@@ -40,10 +40,10 @@ const Footer = () => {
           </Wrap>
           <Text mt={5}>Contact me directly at: <Link href="mailto:emil@jacobsson.com" color={'#00ADB5'} _hover={{ textDecoration: 'underline' }}>emil@jacobsson.com</Link></Text>
           <HStack spacing={5}>
-            <Link href="https://Github.com" isExternal>
+            <Link href="https://github.com/JacobssonEmil" isExternal>
               <Icon as={FaGithub} boxSize={6} color={'#EEEEEE'} _hover={{ color: '#00ADB5' }} />
             </Link>
-            <Link href="https://Linkedin.com" isExternal>
+            <Link href="https://www.linkedin.com/in/emiljacobsson/" isExternal>
               <Icon as={FaLinkedin} boxSize={6} color={'#EEEEEE'} _hover={{ color: '#00ADB5' }} />
             </Link>
             <Link href="mailto:emil@jacobsson.com" isExternal>
