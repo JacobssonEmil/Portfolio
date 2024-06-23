@@ -7,6 +7,7 @@ import Projects from './pages/Projects/Projects';
 import Skills from './pages/Skills/Skills';
 
 import ScrollIndicator from './components/ScrollArrow/ScrollArrow'
+import Footer from './pages/Footer/Footer';
 
 const App = () => {
   return (
@@ -29,6 +30,10 @@ const App = () => {
       <Box id="skills">
         {/* Embed the Projects component */}
         <Skills />
+      </Box>
+      <Box id="footer">
+        {/* Embed the Projects component */}
+        <Footer />
       </Box>
     </Box>
   );

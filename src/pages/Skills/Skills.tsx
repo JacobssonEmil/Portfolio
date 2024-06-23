@@ -28,9 +28,9 @@ function Skills() {
                 <Image src='/images/image.png' alt='Education' boxSize="350px" objectFit="cover" />
                 <Box color={'#EEEEEE'} textAlign={'center'} mt={{ base: 0, md: 10 }}>
                     <Technologies/>
-                    <Text mt={10}>⭐ Bygger responsiva webbapplikationer (SPA) i React.js.</Text>
-                    <Text>⭐ Bygger mobilapplikationer i Kotlin och Jetpack Compose.</Text>
-                    <Text>⭐ Bygger API:er i Javascript och Node.js.</Text>
+                    <Text mt={10}>⭐ Building responsive web applications (SPA) in React.js.</Text>
+                    <Text>⭐ Building mobile applications in Kotlin and Jetpack Compose.</Text>
+                    <Text>⭐ Building APIs in JavaScript and Node.js.</Text>
                 </Box>
             </Flex>
         </Container>

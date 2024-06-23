@@ -3,7 +3,7 @@ import { Box, Flex, Text, IconButton, HStack, Stack, useDisclosure, useColorMode
 import { HamburgerIcon, CloseIcon, ChevronDownIcon, EmailIcon } from '@chakra-ui/icons';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
-const Links = [{ name: 'About', ref: 'about' }, { name: 'Education', ref: 'education' }, { name: 'Projects', ref: 'projects' }, { name: 'Technologies and Tools', ref: 'skills' }];
+const Links = [{ name: 'About', ref: 'about' }, { name: 'Education', ref: 'education' }, { name: 'Projects', ref: 'projects' }, { name: 'Technologies and Tools', ref: 'skills' }, { name: 'Contact', ref: 'footer' }];
 
 const NavLink = ({ children, to }: { children: React.ReactNode, to: string }) => (
   <Box
