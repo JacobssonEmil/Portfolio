@@ -50,7 +50,7 @@ function ProjectCardSmartHouse() {
                         Smart House
                     </Heading>
                     <Text>
-                    En website and mobile app for remotely controlling devices in a prototype house.
+                        A website and mobile app for remotely controlling devices in a prototype house.
                     </Text>
                 </Stack>
 
@@ -60,14 +60,14 @@ function ProjectCardSmartHouse() {
                     <Flex justifyContent="space-between" alignItems="center" width="100%">
                         <ButtonGroup spacing='2'>
                             <Link href='https://github.com/JacobssonEmil' isExternal>
-                                <Button 
-                                    leftIcon={<FaGithub />} 
-                                    variant='outline' 
-                                    color='#EEEEEE' 
-                                    size='sm' 
+                                <Button
+                                    leftIcon={<FaGithub />}
+                                    variant='outline'
+                                    color='#EEEEEE'
+                                    size='sm'
                                     _hover={{
-                                        
-                                        borderColor: '#00ADB5' // subtle border color change
+
+                                        borderColor: '#00ADB5'
                                     }}
                                 >
                                     GitHub
@@ -75,7 +75,19 @@ function ProjectCardSmartHouse() {
                             </Link>
                         </ButtonGroup>
                         <ButtonGroup spacing='2' justifySelf="flex-end">
-                            <Button className='btnWiggle' onClick={onOpen} size='sm'>More Info</Button>
+                            <Button
+                                className='btnWiggle'
+                                onClick={onOpen}
+                                size='sm'
+                                bgGradient='linear(to-r, #6EE7B7, #00ADB5, #3B82F6)'
+                                color={'#222831'}
+                                _hover={{
+                                    bgGradient: 'linear(to-r, #6EE7B7, #00ADB5, #78A0CC)'  // Subtly adjusted ending color
+                                }}
+                            >
+                                More Info
+                            </Button>
+
                         </ButtonGroup>
                     </Flex>
                 </CardFooter>
