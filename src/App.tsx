@@ -6,10 +6,13 @@ import Education from './pages/Education/Education';
 import Projects from './pages/Projects/Projects';
 import Skills from './pages/Skills/Skills';
 
+import ScrollIndicator from './components/ScrollArrow/ScrollArrow'
+
 const App = () => {
   return (
     
     <Box bg={'#222831'}>
+      <ScrollIndicator/>
       <Navbar />
       <Box id="about" >
         {/* Embed the About component */}

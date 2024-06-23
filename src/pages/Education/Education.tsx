@@ -6,7 +6,7 @@ import { FaGraduationCap } from 'react-icons/fa';
 
 function Education() {
     return (
-        <Container maxWidth="1200px" marginTop="160px">
+        <Container maxWidth="1200px" marginTop="200px">
             <Box>
                 <Heading size="lg" color={'#EEEEEE'}>
                     <chakra.span
@@ -20,13 +20,19 @@ function Education() {
                 </Heading>
             </Box>
 
-            <Flex direction={['column', 'column', 'row']} align="flex-start" justify="space-between" mt={50}>
+            <Flex 
+                direction={{ base: "column", lg: "row" }}  // Adjusts direction based on the screen size
+                wrap="wrap"
+                justifyContent={{ base: "center", md: "space-between" }} // Centers items on smaller screens
+                mt={50}
+                alignItems="center" // Ensures items are aligned centrally vertically
+            >
                 <Box>
                     <Kristianstad/>
                     <NtiCard/> 
                 </Box>
 
-                {/* <Image src='/images/Education.png' alt='Education' boxSize="350px" objectFit="cover" alignSelf="center" />*/}
+                <Image src='/images/image.png' alt='Education' boxSize="350px" objectFit="cover" alignSelf="center" />
             </Flex>
 
         </Container>
