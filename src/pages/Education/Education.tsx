@@ -27,12 +27,12 @@ function Education() {
                 mt={50}
                 alignItems="center" // Ensures items are aligned centrally vertically
             >
-                <Box>
+                <Box mb={10}>
                     <Kristianstad/>
                     <NtiCard/> 
                 </Box>
 
-                <Image src='/images/image.png' alt='Education' boxSize="350px" objectFit="cover" alignSelf="center" />
+                <Image src='/images/image.png' alt='Education' boxSize="350px" objectFit="cover" alignSelf="center"/>
             </Flex>
 
         </Container>

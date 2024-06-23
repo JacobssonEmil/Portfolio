@@ -29,7 +29,7 @@ function Project() {
 
 
     return [
-        <Container maxWidth="1200px" marginTop="200px">
+        <Container maxWidth="1200px" marginTop="190px">
 
             <Heading size="lg" color={'#EEEEEE'}>
                 <chakra.span
