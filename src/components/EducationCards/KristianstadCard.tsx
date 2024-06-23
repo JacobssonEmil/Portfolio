@@ -1,4 +1,4 @@
-import { Card, CardBody, Heading, Text, Box, Image, Button } from "@chakra-ui/react";
+import { Card, CardBody, Heading, Text, Box } from "@chakra-ui/react";
 import { GiGraduateCap } from "react-icons/gi";
 
 function KristianstadCard() {

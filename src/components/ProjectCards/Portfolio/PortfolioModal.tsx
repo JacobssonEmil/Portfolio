@@ -19,7 +19,7 @@ import { FaGithub } from 'react-icons/fa';
     onClose: () => void;
   }
   
-  const PortfolioModal: React.FC<PortfolioModalProps> = ({ isOpen, onOpen, onClose }) => {
+  const PortfolioModal: React.FC<PortfolioModalProps> = ({ isOpen, onClose }) => {
     return (
       <>
         <Modal isOpen={isOpen} onClose={onClose}>

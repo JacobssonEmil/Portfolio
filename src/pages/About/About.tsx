@@ -1,5 +1,5 @@
 import { EmailIcon } from '@chakra-ui/icons';
-import { Box, Container, Heading, Text, Flex, Link, Highlight, Divider, Icon } from '@chakra-ui/react';
+import { Box, Container, Heading, Text, Flex, Link, Highlight, Icon } from '@chakra-ui/react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 function About() {

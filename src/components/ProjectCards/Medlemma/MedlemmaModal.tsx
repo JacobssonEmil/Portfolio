@@ -19,7 +19,7 @@ import { FaGithub } from 'react-icons/fa';
     onClose: () => void;
   }
   
-  const MedlemmaModal: React.FC<MedlemmaModalProps> = ({ isOpen, onOpen, onClose }) => {
+  const MedlemmaModal: React.FC<MedlemmaModalProps> = ({ isOpen, onClose }) => {
     return (
       <>
         <Modal isOpen={isOpen} onClose={onClose}>

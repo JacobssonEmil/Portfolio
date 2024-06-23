@@ -9,7 +9,6 @@ import {
   HStack,
   Wrap,
   WrapItem,
-  Center
 } from '@chakra-ui/react';
 import { FaLinkedin, FaGithub, FaPhone } from 'react-icons/fa';
 import { EmailIcon } from '@chakra-ui/icons';
