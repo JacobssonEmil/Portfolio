@@ -25,7 +25,7 @@ function Skills() {
                 mt={50}
                 alignItems="center" // Ensures items are aligned centrally vertically
             >
-                <Image mb={10} src='/images/image.png' alt='Education' boxSize="350px" objectFit="cover" />
+                <Image mt={10} mb={10} src='/images/Skills.gif' alt='Education' boxSize="400px" objectFit="cover" />
                 <Box color={'#EEEEEE'} textAlign={'center'} mt={{ base: 0, md: 10 }}>
                     <Technologies/>
                     <Text mt={10}>⭐ Building responsive web applications (SPA) in React.js.</Text>
