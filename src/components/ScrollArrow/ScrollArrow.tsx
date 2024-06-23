@@ -23,14 +23,14 @@ const ScrollIndicator = () => {
         <Box
             display={'block'}
             sx={{
-                '@media screen and (max-width: 1105px)': {
+                '@media screen and (max-width: 1050px)': {
                     display: 'none',
                 }
             }}
             position="fixed"
             bottom="20px"
-            right="50%"
-            transform="translateX(50%)"
+            left="50%"
+            transform="translateX(-50%)"
             zIndex="tooltip"
             animation="bounce 2s infinite"
         >
