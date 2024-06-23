@@ -1,5 +1,5 @@
 import { EmailIcon } from '@chakra-ui/icons';
-import { Box, Container, Heading, Text, Flex, Link, Highlight, Divider } from '@chakra-ui/react';
+import { Box, Container, Heading, Text, Flex, Link, Highlight, Divider, Icon } from '@chakra-ui/react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 function About() {
@@ -14,9 +14,9 @@ function About() {
                 </Text>
                 <Box marginTop={10}>
                     <Flex justifyContent="center">
-                        <Link href='https://www.linkedin.com/in/emiljacobsson/' isExternal><FaLinkedin size="30" color="#0A66C2" style={{ marginRight: "40px" }} /></Link>
-                        <Link href='https://github.com/JacobssonEmil' isExternal><FaGithub size="30" color="#181717" style={{ marginRight: "40px" }} /></Link>
-                        <Link href="mailto:emil@jacobsson.com" isExternal><EmailIcon boxSize="30" /></Link>
+                        <Link href='https://www.linkedin.com/in/emiljacobsson/' isExternal> <Icon as={FaLinkedin} boxSize={6} color={'#EEEEEE'} _hover={{ color: '#393E46' }} mr={10}/></Link>
+                        <Link href='https://github.com/JacobssonEmil' isExternal> <Icon as={FaGithub} boxSize={6} color={'#EEEEEE'} _hover={{ color: '#393E46' }} mr={10}/></Link>
+                        <Link href="mailto:emil@jacobsson.com" isExternal><Icon as={EmailIcon} boxSize={6} color={'#EEEEEE'} _hover={{ color: '#393E46' }}/></Link>
                     </Flex>
                 </Box>
             </Box>
