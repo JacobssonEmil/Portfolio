@@ -8,8 +8,8 @@ function About() {
             <Box textAlign="center" >
                 <Heading size="3xl">Hey! I am Emil</Heading>
                 <Text marginTop="8" fontSize="2xl">
-                    <Highlight query='fullstack developer' styles={{ px: '2', py: '0.5', rounded: 'full', bg: '#00ADB5', color: '#EEEEEE' }}>
-                        {"I am a passionate fullstack developer from Sweden, Turning your ideas into reality."}
+                    <Highlight query={['fullstack developer', 'responsive', 'user-friendly applications']} styles={{ px: '2', py: '0', rounded: 'full', bgGradient: 'linear(to-r, #6EE7B7, #00ADB5, #3B82F6)', color: '#222831' }}>
+                        {"I am a passionate fullstack developer from Sweden, who enjoys creating responsive and user-friendly applications. Always eager to learn new technologies and apply them in projects."}
                     </Highlight>
                 </Text>
                 <Box marginTop={10}>
