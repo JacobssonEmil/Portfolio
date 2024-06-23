@@ -12,7 +12,7 @@ function KristianstadCard() {
             <CardBody padding={7} position="relative">
                 <Box color={'white'} display="flex" alignItems="center">
                     <GiGraduateCap size="30" />
-                    <Heading size={'md'} ml={3}>Bachelor Programme in Software
+                    <Heading size={'md'} ml={3}>Bachelor Program in Software
                     Development</Heading>
                 </Box>
                 
