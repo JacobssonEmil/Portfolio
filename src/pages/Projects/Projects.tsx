@@ -37,7 +37,7 @@ function Project() {
 
             <Flex direction="row" wrap="wrap" justifyContent="center">
                 <ProjectCardSmartHouse />
-                <Center marginRight={59} marginLeft={59}>
+                <Center marginRight={{ base: "0", md:"59"}} marginLeft={{ base: "0", md:"59"}}>
                     <ProjectCardMedlemma />
                 </Center>
                 <ProjectCardPortfolio />

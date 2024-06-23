@@ -41,7 +41,7 @@ function ProjectCardSmartHouse() {
             bgGradient='linear(to-b, #393E46, #222831)'
             color='#EEEEEE'
             height={350}
-            width={350}
+            maxWidth={350}
             display='flex'
             flexDirection='column'
             _hover={isMobile ? {} : {
@@ -60,6 +60,7 @@ function ProjectCardSmartHouse() {
                     alt='Smart House'
                     objectFit='cover'
                     height={175}
+                    maxWidth={350}
                 />
                 <Stack mt='0' spacing='3' p={5} height={120} overflow='hidden'>
                     <Heading size='md' onClick={onOpen} cursor='pointer' _hover={{
