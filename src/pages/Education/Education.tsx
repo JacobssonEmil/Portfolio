@@ -1,6 +1,4 @@
 import { Box, Flex, Container, Heading, chakra, Text, Image } from '@chakra-ui/react';
-import Kristianstad from '../../components/EducationCard/KristianstadCard';
-import NtiCard from '../../components/EducationCard/NtiCard';
 import EducationCard from '../../components/EducationCard/EducationCard';
 import { FaGraduationCap } from 'react-icons/fa';
 
